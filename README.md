@@ -1,3 +1,6 @@
+<img src="pfp.me" width="250"/>
+
+
 ![<img src="pfp.me" width="250"/>](/images/pfp_me.JPG)    ![<img src="cmu-logo.png" width="150"/>](/images/cmu-logo.png)
 
 My name is Stanley and I'm studying Statistics, Machine Learning, and Computer Science at Carnegie Mellon Univeristy. I am passionate about statistics and data science and am constantly learning new skills to deepen my understanding and knowledge of data science. Here are two of the projects I have worked on in the past. 
