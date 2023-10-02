@@ -1,4 +1,4 @@
-<img src="pfp.me" width="250"/>
+<img src="/images/pfp_me.JPG" width="250"/> <img src="/images/cmu-logo.png" width="100"/>
 
 
 ![<img src="pfp.me" width="250"/>](/images/pfp_me.JPG)    ![<img src="cmu-logo.png" width="150"/>](/images/cmu-logo.png)
