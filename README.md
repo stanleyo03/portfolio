@@ -1,3 +1,5 @@
+![pfp](/images/pfp_me.JPG)
+
 My name is Stanley and I'm studying Statistics, Machine Learning, and Computer Science at Carnegie Mellon Univeristy. I am passionate about statistics and data science and am constantly learning new skills to deepen my understanding and knowledge of data science. Here are two of the projects I have worked on in the past. 
 
 # Project 1: Stock Portfolio Tracker and Predictor
@@ -57,7 +59,6 @@ This project involves building a Random Forest Classification model to predict t
 - Evaluate the model's performance on both the training and test sets using accuracy metrics: training set accuracy > 90% while testing set accuracy is ~60%
 - Prepared a dataset of post-2018 drafted players and predicted the probabilities each of their careers fell into each of the categories.
 
-![image](https://github.com/StanO1225/NBA-Career-Outcomes/assets/115967184/669ecbae-f110-459b-8f17-d9d879cceef8)
-
+![image](/images/feature_importance_bar.JPG)
 ### Conclusion
 This project demonstrates the application of a Random Forest Classification model to predict NBA players' career outcomes based on their first four seasons' performance. By carefully preprocessing the data, selecting relevant features, and optimizing the model, we achieved a ~60% accuracy in predicting career outcomes. The insights gained from this project can provide valuable information for NBA teams and analysts in making strategic decisions about player development and team building. Future improvements to the model involve using a larger training dataset, more selective feature selection, and other data engineering techniques to reduce the possibilities of overfitting.
