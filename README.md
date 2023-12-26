@@ -62,10 +62,13 @@ The core of the project is a Tableau dashboard that allows users to interact wit
 This project seeks to investigate factors and trends that affect how adults are able to learn a foreign language. Using a [large dataset](https://zenodo.org/records/2863533#.Y9Y3pNJBwUE) consisting of anonymized data from the State Examination of Dutch as a Second Language, we created data visualizations and conducted statistical tests in ggplot2/R to answer our various research questions. Some visualizations and methodology include density plots, scatterplots, dendrograms, chloropleths, PCA analysis, ANOVA testing, and linear regression. We hope to generalize the results found here to better explain how one can learn to speak any new language better. This was a collaborative project where I worked with two other CMU students to produce a formal report of our findings linked [HERE](https://www.stat.cmu.edu/capstoneresearch/315files_f23/team24.html). 
 
 ## Visualizations:
-<img src="images/density.png" width="400" align=left/>
-<img src="images/scatter.png" width="400" align=right />
-<img src="images/dumbbell.png" width="400" align=left/>
-<img src="images/pca.png" width="400" align=right/>
+
+<p float="left">
+  <img src="images/density.png" width="400" align=left/>
+  <img src="images/scatter.png" width="400" align=right />
+  <img src="images/dumbbell.png" width="400" align=left/>
+  <img src="images/pca.png" width="400" align=right/>
+</p>
 
 # Project 4: Predicting NBA Career Outcomes
 
