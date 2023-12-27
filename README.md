@@ -63,10 +63,10 @@ This project seeks to investigate factors and trends that affect how adults are 
 
 ## Sample Visualizations:
 <div id="cover">
-  <img src="images/density.png" width="400" align=left/>
-  <img src="images/scatter.png" width="400" align=right />
-  <img src="images/dumbbell.png" width="400" align=left/>
-  <img src="images/pca.png" width="400" align=right/>
+  <img src="images/density.png" width="400" />
+  <img src="images/scatter.png" width="400" />
+  <img src="images/dumbbell.png" width="400" />
+  <img src="images/pca.png" width="400"/>
 </div>
 
 # Project 4: Predicting NBA Career Outcomes
