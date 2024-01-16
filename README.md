@@ -55,7 +55,28 @@ The core of the project is a Tableau dashboard that allows users to interact wit
 ### Limitations
 - Due to file size limitations in Tableau, the dashboard is limited to the top 1500 3x3 solvers. 
 
-# Project 3: Factors Influencing Adult Language Learning
+# Project 3: GCP Data Engineering With Amazon TV Dataset 
+
+## Overview
+This data engineering project focuses on modeling and analyzing the [Amazon Prime TV dataset](https://www.kaggle.com/datasets/victorsoeiro/amazon-prime-tv-shows-and-movies). There are two data tables corresponding to a set of TV shows/movies available on Amazon Prime TV and a set of corresponding actors and directors. The goal of this project is to utilize the google cloud platform to store, transform, query, and analyze data. 
+
+## Process
+- Leveraged the Google Cloud Storage platform to store raw data.
+- Created a visual representation of the data model to provide a clear understanding of the dataset's structure.
+
+<img src="images/data_model.png"/>
+
+- Implemented a data pipeline for Extract, Transform, Load (ETL) using Mage AI on a Google Cloud Virtual Machine.
+
+<img src="images/pipeline.png"/>
+
+- Loaded the transformed dataset into Google BigQuery for data warehousing data querying.
+- Wrote SQL scripts in Bigquery for data analysis and visualization.
+- Built a comprehensive dashboard in Looker studio offering a comprehensive view of the dataset.
+
+<img src="images/amazon_tv_dashboard.png"/>
+
+# Project 4: Factors Influencing Adult Language Learning
 
 ## Description:
 
@@ -69,7 +90,7 @@ This project seeks to investigate factors and trends that affect how adults are 
   <img src="images/pca.png" width="400"/>
 </div>
 
-# Project 4: Predicting NBA Career Outcomes
+# Project 5: Predicting NBA Career Outcomes
 
 This project involves building a Random Forest Classification model to predict the career outcomes of NBA players based on their performance during their first four seasons in the league. 
 
