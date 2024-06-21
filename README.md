@@ -3,32 +3,21 @@
 My name is Stanley and I'm studying Statistics, Machine Learning, and Computer Science at Carnegie Mellon Univeristy. I am passionate about statistics and data science and am constantly learning new skills to deepen my understanding and knowledge of data science. Here are some of the data projects I have worked on in the past.
 
 # Project 1: Stock Portfolio Tracker and Predictor
-This Python project offers a comprehensive stock portfolio tracker with visualization and predictive capabilities. The project utilizes the Yahoo Finance API (yfinance) to fetch historical stock data for a given ticker. The system allows users to input stocks in the format "Ticker Share_Count YYYY-MM-DD" and tracks their portfolio's performance over time. Key features include:
 
-**Portfolio Tracking:** The system keeps track of each stock's performance in the portfolio, including initial investment value, current value, and net profit/loss.
+This stock portfolio tracker web application is a way for users to keep track of their stock portfolio, offering a personalized dashboard for users to have a comprehensive overview of their portfolio history. The app is built using python, flask, and HTML/CSS. The statistical visualizations are made using Bokeh and the stock data is from the yfinance package. 
 
-**Portfolio Visualization:** The system provides visualization tools to showcase the performance of individual stocks and the entire portfolio over time. It plots both actual and predicted stock prices, helping users gauge the effectiveness of the predictive model.
+To use the app, just enter a stock ticker, a date, and how many shares of the stock was purchased. 
 
-**Predictive Modeling:** The project implements a neural network predictive model using TensorFlow and LSTM layers to forecast future stock prices. The model takes historical data as input and provides predictions for the next day's closing price.
+## Demo:
+https://github.com/StanO1225/Stock-Portfolio-Tracker-and-Forecaster/assets/115967184/c202551e-2abf-4712-8184-52d152e54518
 
-**Interactive Interface:** The program offers an interactive command-line interface where users can request stock predictions, view transaction history, calculate total net profit, and visualize portfolio profits.
+## Future Updates:  
 
-**Limitations:** The current version has limitations, such as the inability to add more shares to an existing stock and removing stock shares.
+Portfolio Forecasting : The project implements a neural network predictive model using TensorFlow and LSTM layers to forecast future stock prices. The model takes historical data as input and provides predictions for the next day's closing price. These predictions will be used as a way to forecase portfolio performance. 
 
-The project aims to provide users with insights into their stock portfolio's performance, predictions, and trends using historical data and predictive modeling. The code is organized into classes for Stocks and Portfolios, promoting modularity and scalability.
+Data Processing: Add method to enable users to upload and export stock data so users do not have to enter their portfolio each time. 
 
-For example , the following stocks were added to the portfolio in the form of 'ticker num_shares date_added': 
-aapl 1 2020-01-01
-tsla 2 2022-02-02
-lcid 10 2021-12-20
-nvda 1 2023-01-01
-amzn 2 2021-12-31
-
-Here is a visualization of the portfolio's profits over time.
-![image](https://github.com/StanO1225/Stanley_Portfolio/assets/115967184/f5298ba3-6d23-421b-be8e-7f832fde84e4)
-
-Here is a visualization for predicted stock prices for Nvidia.
-![image](https://github.com/StanO1225/Stanley_Portfolio/assets/115967184/7fd0474f-5033-40b6-9e27-3b64d91774f5)
+Live Stock Info: By integrating a stock price api that allows for real time stock data, the tracker will be able to make real time updates. 
 
 # Project 2: SQL + Tableau WCA Profile Dashboard
 
