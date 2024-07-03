@@ -9,7 +9,7 @@ This stock portfolio tracker web application is a way for users to keep track of
 To use the app, just enter a stock ticker, a date, and how many shares of the stock was purchased. 
 
 ## Demo:
-https://github.com/StanO1225/Stock-Portfolio-Tracker-and-Forecaster/assets/115967184/c202551e-2abf-4712-8184-52d152e54518
+<video> https://github.com/StanO1225/Stock-Portfolio-Tracker-and-Forecaster/assets/115967184/c202551e-2abf-4712-8184-52d152e54518 </video>
 
 ## Future Updates:  
 
