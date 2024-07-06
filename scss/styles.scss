@@ -453,6 +453,13 @@ footer {
         color: $heading;
     }
 
+    pfp {
+        height: auto; 
+        width: auto; 
+        max-width: 300px; 
+        max-height: 300px;
+    }
+
     p {
         color: $text;
         margin: 0;
