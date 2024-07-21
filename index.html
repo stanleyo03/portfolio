@@ -51,7 +51,7 @@
         <div id="lead-content">
             <h1>Stanley Ou</h1>
             <h2>Tech and Data Enthusiast</h2>
-            <a href="#" class="btn-rounded-white link-offset-2 link-underline link-underline-opacity-0">Download Resume</a>
+            <a href="static/stanleyo_resume.pdf" target="_blank" class="btn-rounded-white link-offset-2 link-underline link-underline-opacity-0">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -72,16 +72,26 @@
                 <div class="col-md-4">
                     <h2 class="heading">About Me</h2>
                     <div>
-                        <img class="object-fit-scale border rounded" src="images/pfp_piada.jpg">
+                        <img class="object-fit-scale border rounded shadow-large" src="static/pfp_piada.jpg">
                     </div>
                 </div>
-                <div class="col-md-8 align-middle">
-                    <p>   
-                        Hello! Thank you for visiting my site! My name is Stanley and I am a junior studying Statistics, Machine Learning, and Computer Science at Carnegie Mellon University. 
-                        I am passionate about data-driven insights and making an impact with my work. I have experience with developing ML models, working with data pipelining tools, and creating comprehensive data dashboards and reports. 
-                        I am a growth-minded  individual who is always looking forward to learn new skills and technologies. 
-                        Here are some of my experiences and projects I have worked on in the past. 
-                    </p>
+                <div class="col-md-8 d-flex align-items-center">
+                    <div>
+                        <p class="fs-2 font-weight-bold text-dark">   
+                            Hello, I'm Stanley!
+                        </p>
+                        <br>
+                        <p class="fs-5">
+                            I'm a junior studying Statistics, Machine Learning, and Computer Science at Carnegie Mellon University and currently a software engineering intern at 
+                            <a class ="link-offset-2 link-underline link-underline-opacity-0" href= "https://ploomber.io/">Ploomber</a>. 
+                        </p>
+                        <br>
+                        <p>
+                            I am passionate about data-driven insights and making an impact with my work. I have experience with developing ML models, working with data pipelining tools, and creating comprehensive data dashboards and reports. 
+                            I am a growth-minded individual who is always looking forward to learn new skills and technologies. 
+                            Here are some of my experiences and projects I have worked on in the past. 
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -91,19 +101,29 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
+            
             <div data-date="June 2021 – January 2022">
-                <h3>UMBC Bennett Labs</h3>
-                <h4>Research Intern</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+                <!-- <div> -->
+                    <h3>UMBC Bennett Labs</h3>
+                    <h4>Research Intern</h4>
+                    <p>
+                        I had the opportunity to work with 
+                        <a class = "link-offset-2 link-underline link-underline-opacity-0" href="https://chemistry.umbc.edu/joseph-bennett/Professor"> Dr. Joseph Bennett </a> at UMBC 
+                        to use Density Functional Theory (DFT) to investigate how sulfur-based pollutants interacted with calcite and alumina surfaces. I performed DFT calculations, collected data, drafted a 
+                        <a class = "link-offset-2 link-underline link-underline-opacity-0" href="https://doi.org/10.1007/s42860-022-00194-5">published manuscript</a>, and gave presentations, which culminated in a
+                        junior first place award in chemistry from the 
+                        <a class= "link-offset-2 link-underline link-underline-opacity-0" href="https://www.washacadsci.org/"> Washington Academy of Sciences </a>.
+                    <p>
+                <!-- <div> -->
             </div>
 
             <div data-date="June 2023 – August 2023">
                 <h3>CMU LearnLab</h3>
                 <h4>Undergraduate Research Assistant</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    I worked with Professor 
+                    <a class = "link-offset-2 link-underline link-underline-opacity-0" href="https://sites.google.com/view/paulocarvalho"> Paulo Carvalho </a> under CMU LearnLab to investigate how 
+                    how using different active learning techniques impacts student learning. I cleaned and transformed student performance data from seven semesters, created data visualizations, and conduct a meta-analysis to identify differences between POE (Predict-Observe-Explain) and a baseline active learning method. 
                 </p>
             </div>
 
@@ -111,21 +131,25 @@
                 <h3>CMU</h3>
                 <h4>Undergraduate Teaching Assistant</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    I worked as a teaching assistant for 80-101 Dangerous Ideas in Science and Society with Professor Simon Cullen and 36-219 Probability Theory and Random Processes with Professor Spencer Koerner. I held problem set sessions, office hours, and graded problem sets and homeworks. 
                 </p>
             </div>
-            <div data-date="February 2024 - July 2024">
+            <div data-date="February 2024 - Present">
                 <h3>PA 211</h3>
                 <h4>Data Science Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    I supported PA 211's statewide initiative in assisting thousands of people in need of shelter, food, and utilities by developing BI dashboards and data reports in DOMO. 
+                    I created ETL pipelines using SQL to integrate data from external software, web-scraped data using Scrapy, and developed a multinomial logistic regression model with 75% accuracy in predicting clients' identified needs.
+                    It was my first time working for a non-profit and it was a fulfilling experience, knowing that my work could have made an impact on many people.
                 </p>
             </div>
             <div data-date="July 2024 - Present">
                 <h3>Ploomber</h3>
                 <h4>Software Engineering Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    I'm thrilled to be collaborating with a dedicated team of engineers at Ploomber to develop Python APIs and build a distributed cloud platform for data teams to build and deploy applications faster. 
+                    In our agile development environment, I use Python, Javascript, and CI/CD to contribute to the full-stack development of Ploomber's innovative cloud and data products. 
+
                 </p>
             </div>
         </div>
@@ -136,7 +160,7 @@
         <h2 class="heading">Education</h2>
             <div class="education-block">
                 <div>
-                    <img src="images/cmu-logo.png" class="education-logo">
+                    <img src="static/cmu-logo.png" class="education-logo">
                 </div>
 
                 <div>
@@ -153,24 +177,6 @@
                 </div>
         </div>
         <!-- End .education-block -->
-
-        <!-- <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div> -->
-        <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
@@ -178,7 +184,7 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="project shadow-large">
-                <img class = "project-image" src="images/stock_tracker.jpg" />
+                <img class = "project-image bold" src="static/stocks.jpg" />
                 <!-- End .project-image -->
                 <div class="project-info">
                     <h3>Stock Portfolio Tracker</h3>
@@ -191,23 +197,6 @@
                     <!-- End .project-info -->
             </div>
                 <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
         </div>
     </div>
     <!-- End #projects -->
@@ -227,6 +216,8 @@
             <li>CSS</li>
             <li>JavaScript</li>
             <li>Tableau</li> 
+            <li>Shiny</li>
+            <li>Conda</li>
             <li>Google Cloud Platform</li>
             <li>Pandas</li>
             <li>Tensorflow</li>
@@ -264,10 +255,10 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/stanleyo03" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/stanleyo03" target="_blank"><i class="fa fa-github fs-1" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/stanley-ou-a88349254/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/stanley-ou-a88349254/" target="_blank"><i class="fa fa-linkedin fs-1" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
