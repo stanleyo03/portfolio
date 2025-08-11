@@ -28,9 +28,13 @@
         var heading = $(this).attr('href');
         var scrollDistance = $(heading).offset().top;
 
+        // Stop any ongoing animations first
+        $('html, body').stop(true, true);
+        
+        // Use a faster, more direct animation
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
-        }, 1000, 'easeInOutCubic');
+        }, 600);
 
         // Hide the menu once clicked if mobile
         if ($('header').hasClass('active')) {
@@ -40,17 +44,19 @@
 
     // Scroll to top
     $('#to-top').click(function() {
+        $('html, body').stop(true, true);
         $('html, body').animate({
             scrollTop: 0
-        }, 1000, 'easeInOutCubic');
+        }, 600);
     });
 
     // Scroll to first element
     $('#lead-down span').click(function() {
         var scrollDistance = $('#lead').next().offset().top;
+        $('html, body').stop(true, true);
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
-        }, 1000, 'easeInOutCubic');
+        }, 600);
     });
 
     // Create timeline

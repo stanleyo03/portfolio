@@ -12,7 +12,7 @@
 */
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior removed to prevent conflicts with jQuery animations */
 }
 
 body {
@@ -405,6 +405,49 @@ footer {
   font-size: 0.9em;
   margin: 0;
 }
+
+/* Experience header with logo styling */
+.experience-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 15px;
+}
+
+.experience-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #fff;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-logo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.experience-title {
+  flex: 1;
+}
+
+.experience-title h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #374054;
+}
+
+.experience-title h4 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #7e8890;
+}
 .vtimeline-point {
   position: relative;
   display: block;
@@ -708,6 +751,23 @@ footer {
   }
   .vtimeline-content {
     margin-left: 70px;
+  }
+  
+  /* Mobile experience header adjustments */
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .experience-logo {
+    align-self: center;
+  }
+  
+  .experience-title {
+    text-align: center;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 992px) {
