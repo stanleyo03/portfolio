@@ -18,6 +18,8 @@ html {
 body {
   font-family: "Lato", sans-serif;
   font-size: 16px;
+  line-height: 1.6;
+  color: #333;
 }
 body.active {
   overflow: hidden;
@@ -87,6 +89,7 @@ header a {
   display: block;
   color: #3498db;
   padding: 10px;
+  transition: all 0.3s ease;
 }
 header a:hover {
   color: #217dbb;
@@ -191,7 +194,10 @@ footer {
   padding: 15px 25px;
   border: 3px solid #fff;
   border-radius: 30px;
-  transition: 0.5s ease all;
+  transition: 0.3s ease all;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 .btn-rounded-white:hover {
   color: #3498db;
@@ -254,12 +260,14 @@ footer {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   line-height: 0.9em;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 #lead-content h2 {
   color: #a0cfee;
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 #lead-overlay {
   position: absolute;
@@ -315,7 +323,9 @@ footer {
 
 #about img{
   max-width: 100%;
-  max-height:400px
+  max-height:400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 #about h2 {
@@ -323,7 +333,9 @@ footer {
 }
 #about p {
   color: #74808a;
-  margin: 0;
+  margin: 0 0 1rem 0;
+  line-height: 1.7;
+  font-size: 1.05em;
 }
 #experience {
   padding: 50px 15px;
@@ -493,7 +505,14 @@ footer {
   margin: 0 auto 30px auto;
   overflow: hidden;
   background: #fff;
-  border-radius: 4px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 .project-image {  
   max-width: 300px;
@@ -521,7 +540,8 @@ footer {
 .project-info p {
   color: #74808a;
   margin: 0 0 15px 0;
-  font-size: 0.9em;
+  font-size: 0.95em;
+  line-height: 1.6;
 }
 .no-image .project-info {
   position: relative;
@@ -549,12 +569,22 @@ footer {
 #skills li {
   display: inline-block;
   margin: 7px;
-  padding: 5px 10px;
+  padding: 8px 15px;
   color: #374054;
-  background: #e4e4ea;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   list-style: none;
   cursor: default;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  border-radius: 20px;
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#skills li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
 }
 #contact {
   padding: 50px 15px;
