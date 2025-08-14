@@ -50,7 +50,7 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Stanley Ou</h1>
-            <h2>Aspiring Data Scientist</h2>
+            <h2>Aspiring ML Data Scientist</h2>
             <a href="static/stanleyo_resume.pdf" target="_blank" class="btn-rounded-white link-offset-2 link-underline link-underline-opacity-0">Resume</a>
         </div>
         <!-- End #lead-content -->
@@ -82,15 +82,16 @@
                         </p>
                         <br>
                         <p class="fs-5">
-                            I'm a senior studying Statistics, Machine Learning, and Computer Science at Carnegie Mellon University and currently a data science intern at the
-                            <a class ="link-offset-2 link-underline link-underline-opacity-0" href= "https://www.sei.cmu.edu/">CMU Software Engineering Institute</a> and a research assistant at the 
-                            <a class ="link-offset-2 link-underline link-underline-opacity-0" href= "https://peex.heinz.cmu.edu/">CMU Privacy Economics Experiments Lab</a>.
+                            I'm a senior studying Statistics, Machine Learning, and Computer Science at Carnegie Mellon University and currently a research assistant at the 
+                            <a class ="link-offset-2 link-underline link-underline-opacity-0" target="_blank" href= "https://peex.heinz.cmu.edu/">CMU Privacy Economics Experiments Lab</a>.
+                            I was previously a data science intern at the
+                            <a class ="link-offset-2 link-underline link-underline-opacity-0" target="_blank" href= "https://www.sei.cmu.edu/">CMU Software Engineering Institute</a> and 
+                            <a class ="link-offset-2 link-underline link-underline-opacity-0" target="_blank" href= "https://www.astrazeneca.com/">AstraZeneca</a>.
                         </p>
                         <br>
                         <p>
-                            I am passionate about data-driven insights and making an impact with my work. I have experience with developing ML models, working with data pipelining tools, and creating comprehensive data dashboards and reports. 
-                            I am a growth-minded individual who is always looking forward to learn new skills and technologies. 
-                            Here are some of my experiences and projects I have worked on in the past. 
+                            I am passionate about data-driven insights and making an impact-based work. I have experience with machine learning systems, databases, and data visualization.
+                            I am a growth-minded individual who is always looking forward to learn new skills and technologies.  Here are some of my experiences and projects I have worked on in the past. 
                         </p>
                     </div>
                 </div>
@@ -191,7 +192,7 @@
                     </div>
                 </div>
                 <p>
-                    I am working on projects related to insider risk under the CERT Cyber Risk and Resilience division. Insider risk refer to incidents where an employee or trusted individual of an organization harms the organization. 
+                    I worked on projects related to insider risk under the CERT Cyber Risk and Resilience division. Insider risk refer to incidents where an employee or trusted individual of an organization harms the organization. 
                     My first project involved collecting, interpreting, and visualizing data from 1000+ insider risk court cases in an annual published report on trends in insider risk.
                     Next, I worked to automate data collection from diverse court case documents by implementing NLP methods, including regular expressions 
                     and Named Entity Recognition (NER), to extract relevant fields such as insider name, victim organization, and sentences/charges.
@@ -207,7 +208,11 @@
                     </div>
                 </div>
                 <p>
-                    [Position details to be updated]
+                    I had an amazing opportunity to work with the Lean Digital Transformation team at AstraZeneca and worked on projects in many cross-functional teams across the site. 
+                    Notably, I worked with the upstream manufacturing team on an end-to-end modeling project to forecast critical cell culture process parameters in the biologics manufacturing process. 
+                    I worked on all phases of the project, from ETL in Snowflake to model development and deployment in Dataiku.
+                    I also worked with the facilities & engineering department to develop a PowerBI dashboard to monitor the facility's work orders, improving visibility and efficiency of the facility's operations.
+                    Lastly, I lead a team of 10 and won 1st place in a site-wide Hackathon by developing a tool using barcode scanners to improve the manufacturing inventory reconciliation process.
                 </p>
             </div>
         </div>
@@ -225,8 +230,17 @@
                     <h3>Carnegie Mellon University</h3>
                     <span class="education-date">Aug 2022 - May 2026</span>
                     <h4>B.S in Statistics and Machine Learning, Computer Science </h4>
+                    <p>
+                        <strong>GPA</strong>: 3.79/4.0, Honors: Dean's List (all semesters)
+                    </p>
 
+                    <p>
+                        <strong>Relevant Coursework</strong>: Machine Learning, Artificial Intelligence, Data Science in R, Statistical Visualizations, Probability and Statistical Inference, 
+                        Statistical Computing, Modern Regression, Software Engineering, Database Systems, Algorithms & Data Structures in C
+                    </p>
+                    <br>
                     <h6>Teaching Assistant:</h6>
+
                     <ul>        
                         <li>
                             36-219 Probability and Random Processes
@@ -235,16 +249,7 @@
                         <li>
                             80-101 Dangerous Ideas in Science and Society
                         </li>
-                    </ul>
-                    <br>
-                    <p>
-                        <strong>GPA</strong>: 3.83/4.0, Honors: Dean’s List (all semesters)
-                    </p>
-
-                    <p>
-                        <strong>Relevant Coursework</strong>: Machine Learning, Data Science in R, Statistical Visualizations, Probability and Statistical Inference, 
-                        Statistical Computing, Modern Regression, Software Engineering, Artificial Intelligence, Computer Systems, Algorithms & Data Structures in C
-                    </p>
+                    </ul
                 </div>
         </div>
         <!-- End .education-block -->
@@ -255,6 +260,23 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="project shadow-large">
+                <img class = "project-image bold" src="static/feyncard-logo.svg" />
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Feyncard</h3>
+                    <p>
+                        I am a big believer in the Feynman technique, a learning method where you explain a concept as if you're teaching someone with no prior knowledge. 
+                        I wanted a learning tool that would let me leverage this technique, so I created a flashcard app that allows users to create flashcards, study them, and explain the concept out loud. 
+                        An LLM then evaluates the user's explanation and provides constructive feedback for improvement. 
+                    </p>
+                    <a target="_blank" href="https://feyncard.vercel.app/">View Project</a>
+                </div>
+                    <!-- End .project-info -->
+            </div>
+                <!-- End .project -->
+        </div>
+        <div class="container">
+            <div class="project shadow-large">
                 <img class = "project-image bold" src="static/stocks.jpg" />
                 <!-- End .project-image -->
                 <div class="project-info">
@@ -263,7 +285,7 @@
                         This stock portfolio tracker web application is a way for users to keep track of their stock portfolio, offering a personalized dashboard for users to have a comprehensive overview of their portfolio history. The app is built using python, flask, and HTML/CSS. The statistical visualizations are made using Bokeh and the stock data is from the yfinance package.
 
                         To use the app, just enter a stock ticker, a date, and how many shares of the stock was purchased.                        </p>
-                    <a href="https://github.com/stanleyo03/Stock-Portfolio-Tracker-and-Forecaster">View Project</a>
+                    <a target="_blank" href="https://github.com/stanleyo03/Stock-Portfolio-Tracker-and-Forecaster">View Project</a>
                 </div>
                     <!-- End .project-info -->
             </div>
@@ -281,21 +303,22 @@
             <li>Java</li>
             <li>C</li>
             <li>GitHub</li>
+            <li>Snowflake</li>
+            <li>Dataiku</li>
             <li>Flask</li>
             <li>Docker</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
+            <li>PowerBI</li>
             <li>Tableau</li> 
             <li>Shiny</li>
-            <li>Conda</li>
             <li>Google Cloud Platform</li>
             <li>AWS</li>
             <li>Pandas</li>
             <li>Tensorflow</li>
             <li>Streamlit</li>
             <li>Pytorch</li>
-
         </ul>
     </div>
     <!-- End #skills -->
